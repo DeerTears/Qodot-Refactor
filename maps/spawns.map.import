@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/spawns.map-a6718de90eaef38c66e4856063fab815.tres"
+
+[deps]
+
+source_file="res://maps/spawns.map"
+dest_files=[ "res://.import/spawns.map-a6718de90eaef38c66e4856063fab815.tres" ]
+
+[params]
+

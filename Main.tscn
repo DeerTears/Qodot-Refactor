@@ -1,0 +1,140 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://addons/qodot/src/nodes/qodot_map.gd" type="Script" id=2]
+[ext_resource path="res://definitions/fgd_qodotscripting.tres" type="Resource" id=3]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[sub_resource type="SpatialMaterial" id=7]
+
+[sub_resource type="ArrayMesh" id=8]
+surfaces/0 = {
+"aabb": AABB( -23, -1, -19, 46, 2.00001, 38 ),
+"array_data": PoolByteArray( 0, 0, 184, 193, 0, 0, 128, 63, 0, 0, 152, 193, 127, 127, 127, 193, 192, 221, 0, 204, 0, 0, 184, 193, 0, 0, 128, 191, 0, 0, 152, 193, 127, 127, 127, 193, 192, 221, 0, 76, 0, 0, 184, 65, 0, 0, 128, 191, 0, 0, 152, 193, 127, 127, 127, 193, 192, 93, 0, 76, 0, 0, 184, 65, 0, 0, 128, 63, 0, 0, 152, 193, 127, 127, 127, 193, 192, 93, 0, 204, 0, 0, 184, 193, 0, 0, 128, 63, 0, 0, 152, 193, 129, 0, 0, 63, 192, 220, 0, 204, 0, 0, 184, 193, 0, 0, 128, 63, 0, 0, 152, 65, 129, 0, 0, 63, 192, 92, 0, 204, 0, 0, 184, 193, 0, 0, 128, 191, 0, 0, 152, 65, 129, 0, 0, 63, 192, 92, 0, 76, 0, 0, 184, 193, 0, 0, 128, 191, 0, 0, 152, 193, 129, 0, 0, 63, 192, 220, 0, 76, 0, 0, 184, 65, 0, 0, 128, 191, 0, 0, 152, 193, 0, 129, 0, 193, 192, 220, 192, 221, 0, 0, 184, 193, 0, 0, 128, 191, 0, 0, 152, 193, 0, 129, 0, 193, 192, 220, 192, 93, 0, 0, 184, 193, 0, 0, 128, 191, 0, 0, 152, 65, 0, 129, 0, 193, 192, 92, 192, 93, 0, 0, 184, 65, 0, 0, 128, 191, 0, 0, 152, 65, 0, 129, 0, 193, 192, 92, 192, 221, 0, 0, 184, 65, 0, 0, 128, 63, 0, 0, 152, 193, 0, 127, 0, 63, 192, 220, 192, 221, 0, 0, 184, 65, 0, 0, 128, 63, 0, 0, 152, 65, 0, 127, 0, 63, 192, 92, 192, 221, 0, 0, 184, 193, 0, 0, 128, 63, 0, 0, 152, 65, 0, 127, 0, 63, 192, 92, 192, 93, 0, 0, 184, 193, 0, 0, 128, 63, 0, 0, 152, 193, 0, 127, 0, 63, 192, 220, 192, 93, 0, 0, 184, 65, 0, 0, 128, 63, 0, 0, 152, 193, 127, 0, 0, 193, 192, 220, 0, 204, 0, 0, 184, 65, 0, 0, 128, 191, 0, 0, 152, 193, 127, 0, 0, 193, 192, 220, 0, 76, 0, 0, 184, 65, 0, 0, 128, 191, 0, 0, 152, 65, 127, 0, 0, 193, 192, 92, 0, 76, 0, 0, 184, 65, 0, 0, 128, 63, 0, 0, 152, 65, 127, 0, 0, 193, 192, 92, 0, 204, 0, 0, 184, 193, 0, 0, 128, 63, 0, 0, 152, 65, 0, 0, 127, 63, 192, 221, 0, 204, 0, 0, 184, 65, 0, 0, 128, 63, 0, 0, 152, 65, 0, 0, 127, 63, 192, 93, 0, 204, 0, 0, 184, 65, 0, 0, 128, 191, 0, 0, 152, 65, 0, 0, 127, 63, 192, 93, 0, 76, 0, 0, 184, 193, 0, 0, 128, 191, 0, 0, 152, 65, 0, 0, 127, 63, 192, 221, 0, 76 ),
+"array_index_data": PoolByteArray( 0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0, 4, 0, 5, 0, 6, 0, 4, 0, 6, 0, 7, 0, 8, 0, 9, 0, 10, 0, 8, 0, 10, 0, 11, 0, 12, 0, 13, 0, 14, 0, 12, 0, 14, 0, 15, 0, 16, 0, 17, 0, 18, 0, 16, 0, 18, 0, 19, 0, 20, 0, 21, 0, 22, 0, 20, 0, 22, 0, 23, 0 ),
+"blend_shape_data": [  ],
+"format": 2194711,
+"index_count": 36,
+"material": SubResource( 7 ),
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 24
+}
+
+[sub_resource type="ConvexPolygonShape" id=9]
+points = PoolVector3Array( -23, 1, -19, -23, -1, -19, 23, -1, -19, 23, 1, -19, -23, 1, 19, -23, -1, 19, 23, -1, 19, 23, 1, 19 )
+
+[sub_resource type="GDScript" id=10]
+script/source = "extends Spatial
+
+## todo: make this a setget for tool compatibility? check if it works first try
+export(Dictionary) var properties
+
+var default_actor = \"Enemy\"
+
+func _init() -> void:
+	add_to_group(\"SpawnPoints\")
+	if \"default_actor\" in properties:
+		default_actor = \"default_actor\"
+
+func _ready():
+	if \"spawn_on_start\" in properties:
+		if \"spawn_on_start\":
+			spawn()
+	spawn()
+
+func spawn(actor_type: String = default_actor) -> void:
+	if not is_inside_tree():
+		yield(self, \"ready\")
+	var path = \"\"
+	match actor_type:
+		\"Player\":
+			path = \"res://actors/player.tscn\"
+		\"Enemy\":
+			path = \"res://actors/enemy.tscn\"
+	var actor: Spatial = load(path).instance()
+	actor.set_as_toplevel(true)
+	add_child(actor)
+"
+
+[sub_resource type="ProceduralSky" id=5]
+sky_top_color = Color( 1, 1, 0.945098, 1 )
+sky_horizon_color = Color( 0.498039, 0.615686, 0.709804, 1 )
+
+[sub_resource type="Environment" id=6]
+background_mode = 2
+background_sky = SubResource( 5 )
+ambient_light_sky_contribution = 0.0
+
+[node name="Spatial" type="Spatial"]
+
+[node name="QodotMap" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0 )
+script = ExtResource( 2 )
+map_file = "C:/Users/waxwi/Gamedev/Godot/Projects/QodotScripting/maps/spawns.map"
+inverse_scale_factor = 16.0
+entity_fgd = ExtResource( 3 )
+base_texture_dir = "res://textures"
+texture_file_extensions = PoolStringArray( "png" )
+worldspawn_layers = [  ]
+brush_clip_texture = "special/clip"
+face_skip_texture = "special/skip"
+texture_wads = [  ]
+material_file_extension = "tres"
+default_material = SubResource( 1 )
+uv_unwrap_texel_size = 1.0
+print_profiling_data = false
+use_trenchbroom_group_hierarchy = false
+tree_attach_batch_size = 16
+set_owner_batch_size = 16
+
+[node name="entity_0_worldspawn" type="StaticBody" parent="QodotMap"]
+
+[node name="entity_0_mesh_instance" type="MeshInstance" parent="QodotMap/entity_0_worldspawn"]
+use_in_baked_light = true
+mesh = SubResource( 8 )
+
+[node name="entity_0_brush_0_collision_shape" type="CollisionShape" parent="QodotMap/entity_0_worldspawn"]
+shape = SubResource( 9 )
+
+[node name="entity_1_SpawnPoint" type="Spatial" parent="QodotMap"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5, 1.5, 13.5 )
+script = SubResource( 10 )
+properties = {
+"classname": "SpawnPoint",
+"origin": "216 296 24"
+}
+
+[node name="entity_2_SpawnPoint" type="Spatial" parent="QodotMap"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, 1.5, 7.5 )
+script = SubResource( 10 )
+properties = {
+"classname": "SpawnPoint",
+"origin": "120 -120 24"
+}
+
+[node name="entity_3_SpawnPoint" type="Spatial" parent="QodotMap"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5, 1.5, -13.5 )
+script = SubResource( 10 )
+properties = {
+"classname": "SpawnPoint",
+"origin": "-216 296 24"
+}
+
+[node name="entity_4_SpawnPoint" type="Spatial" parent="QodotMap"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5, 1.5, -7.5 )
+script = SubResource( 10 )
+properties = {
+"classname": "SpawnPoint",
+"origin": "-120 -184 24"
+}
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 6 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="WorldEnvironment"]
+transform = Transform( -0.501375, -0.841697, 0.200424, -0.023995, 0.24508, 0.969206, -0.864898, 0.481126, -0.143073, 0, 11.0154, 0.433985 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.998932, -0.0240698, 0.039436, 0, 0.85357, 0.520978, -0.0462013, -0.520421, 0.852659, 0.695878, 20.2085, 15.4798 )
+current = true

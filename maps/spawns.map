@@ -1,0 +1,35 @@
+// Game: Scripting
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -304 240 -16 ) ( -304 241 -16 ) ( -304 240 -15 ) __TB_empty 0 0 0 1 1
+( -304 -368 -16 ) ( -304 -368 -15 ) ( -303 -368 -16 ) __TB_empty 0 0 0 1 1
+( -304 240 -16 ) ( -303 240 -16 ) ( -304 241 -16 ) __TB_empty 0 0 0 1 1
+( -176 368 16 ) ( -176 369 16 ) ( -175 368 16 ) __TB_empty 0 0 0 1 1
+( -176 368 16 ) ( -175 368 16 ) ( -176 368 17 ) __TB_empty 0 0 0 1 1
+( 304 368 16 ) ( 304 368 17 ) ( 304 369 16 ) __TB_empty 0 0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "SpawnPoint"
+"origin" "216 296 24"
+}
+// entity 2
+{
+"classname" "SpawnPoint"
+"origin" "120 -120 24"
+}
+// entity 3
+{
+"classname" "SpawnPoint"
+"origin" "-216 296 24"
+}
+// entity 4
+{
+"classname" "SpawnPoint"
+"origin" "-120 -184 24"
+}
